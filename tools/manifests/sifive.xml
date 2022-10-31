@@ -1,13 +1,13 @@
 <manifest>
   <remote name="github" fetch="https://github.com/gytechs/" />
 
-  <default remote="github" revision="main" />
+  <default remote="github" revision="master" />
 
-  <project name="freedom-u-sdk" path="freedom-u-sdk"  />
-  <project name="meta-sifive" path="meta-sifive"  />
-  <project name="meta-riscv" path="meta-riscv"  />
+  <project name="freedom-u-sdk" path="freedom-u-sdk" />
+  <project name="meta-sifive" path="meta-sifive" />
+  <project name="meta-riscv" path="meta-riscv" />
   <project name="openembedded-core" path="openembedded-core" />
-  <project name="bitbake" path="openembedded-core/bitbake"  />
-  <project name="meta-openembedded" path="meta-openembedded"  />
-  <project name="meta-clang" path="meta-clang"  />
+  <project name="bitbake" path="openembedded-core/bitbake" revision="main" />
+  <project name="meta-openembedded" path="meta-openembedded" />
+  <project name="meta-clang" path="meta-clang" />
 </manifest>
