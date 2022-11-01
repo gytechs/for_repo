@@ -33,7 +33,7 @@ This needs to be done every time you want a clean setup based on the latest laye
 
 ```bash
 mkdir riscv-sifive && cd riscv-sifive
-repo init -u https://github.com/sifive/freedom-u-sdk -b 2022.04 -m tools/manifests/sifive.xml
+repo init -u https://github.com/kinaraembedded/riscv-embedded -b kinaraembedded_v1  -m tools/manifests/sifive.xml
 repo sync
 ```
 
@@ -232,7 +232,7 @@ OE provides easy to use wrapper for QEMU:
 ```bash
 MACHINE=qemuriscv64 runqemu nographic slirp
 ```
-#### Option 2:Mounting root on RAMFS  (root = /dev/vda)
+#### Option 2:Mounting root on RAMFS  (root = /dev/ram0)
 
 ### Configure the below steps 
 
